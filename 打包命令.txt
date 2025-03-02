@@ -1,0 +1,4 @@
+Windows打包命令:
+
+
+nuitka --standalone --onefile --windows-console-mode=disable --windows-icon-from-ico=./resources/logo.ico --include-data-dir=resources=resources --enable-plugin=pyqt6 Gemini-LaTeXOCR.py
